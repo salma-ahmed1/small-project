@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>SIGN-UP</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet"
+             href="stylesheet.css">
+
+    </head>
+    <body>
+        
+        <img id="image"
+             src="sign-up-page outfit.jpg"
+             height="94"
+             width="84"
+             alt="outfit"/>
+
+        <a href="main-page.html">
+            <button class="button" id="TARA" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()"  style="font-size: 80px;">Sign up</button>
+        </a>
+
+        <div style="margin-inline-start: 160px;">
+            <p>
+                <label>E-MAIL</label>
+            </p>
+
+            <p>
+                <input type="email"/>
+            </p>
+
+            <p>
+                <label>PASSWORD</label>
+            </p>
+            
+            <p>
+                <input type="password"/>
+            </p>
+
+        <button class="button btn" style="font-size: 30px; width: auto; margin-top: 50px; margin-left: 100px;">Submit</button>
+
+        </div>
+
+        <script>
+            function mouseEnter() {
+              document.getElementById("TARA").style.color = "#9D5B78";
+            }
+            
+            function mouseLeave() {
+              document.getElementById("TARA").style.color = "#CEACBB";
+            }
+            </script>
+
+            
+    </body>
+</html>
